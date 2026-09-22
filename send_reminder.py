@@ -55,13 +55,17 @@ def main():
         
     elif pilihan == "3":
         pesan = (
-            "FU TIME 🔥🔥\n"
-            "segera simak thread ya untuk priority dan mekanisme FU today !! \n"
-            "sekarang all team sudah include perform dan belum ada buffer, jadi datamu tanggung jawabmu ya. perbantuan tidak bisa se intens dulu\n\n"
-            "mekanisme :\n"
-            "priority 70% wajib di touch dulu\n"
-            "pengulangan menggunakan filter CRM risk tier (1,2,90,62,50,22,65) copy paste angka tsb langsung di CRM"
-        )
+            "Reminder kembali mengenai hal dibawah ini 
+
+1️⃣ Fake PTP – "Change Nominal" Sistem mendeteksi adanya perubahan/manipulasi atau pengurangan nominal PTP.\n"
+            "2️⃣ HC / Suspect Fraud / WPWN Date < 4 Hari 
+⚠️ Tanggal HC, Suspect Fraud, atau WPWN wajib diset  H+4 dari tanggal penelponan dan edukasi CS
+📌 Contoh: Jika penelponan dilakukan pada Selasa, 15 September 2026, maka CBD wajib diset pada Sabtu, 19 September 2026.
+y !! \n"
+            "3️⃣ Fake PTP > H+2 Days 
+Tanggal PTP tidak boleh melebihi H+2 dari tanggal penelponan. PTP yang diset lebih dari H+2 penelponan akan otomatis terdeteksi sebagai finding.\n\n"
+            "4️⃣ SP Repayment Abuse 
+Sistem memantau penggunaan payment code maupun skema terkait untuk mencegah adanya penyalahgunaan fitur. :\n"
         print("Memproses Reminder 3...")
         send_seatalk_message(webhook_url, pesan)
         

@@ -55,7 +55,7 @@ def main():
         
     elif pilihan == "3":
         pesan = (
-            "FU TIME 🔥🔥\n\n"
+            "FU TIME 🔥🔥\n"
             "segera simak thread ya untuk priority dan mekanisme FU today !! \n"
             "sekarang all team sudah include perform dan belum ada buffer, jadi datamu tanggung jawabmu ya. perbantuan tidak bisa se intens dulu\n\n"
             "mekanisme :\n"
